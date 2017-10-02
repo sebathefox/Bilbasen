@@ -1,9 +1,9 @@
 <?php
 require('header.php');
+?>
 
-echo '
-æøå
-';
+<h4>Velkommen til Bilbasen.local</h4>
 
+<?php
 require('footer.php');
 ?>

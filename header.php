@@ -1,7 +1,3 @@
-<?php
-//header.php
-
-echo '
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,9 +23,7 @@ echo '
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
     </div>
-	<li class="navbar righty"><a class="navbar" href="login.php">Log Ind</a></li>
+	<li class="navbar righty"><a class="navbar" href="opretkunde.php">Opret dig</a></li>
 </li>
 </ul>
-</nav>';
-
-?>
+</nav>

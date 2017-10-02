@@ -19,7 +19,7 @@ header {
 */
 ul.navbar {
     list-style-type: none;
-    
+
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -81,7 +81,6 @@ li.dropdown {
 * Begyndelsen på footeren
 */
 
-
 footer.footer {
    position:absolute;
    bottom:0;
@@ -89,4 +88,15 @@ footer.footer {
    height:60px;   /* Height of the footer */
    background: #003b6f;
    margin-bottom: 0px;
+}
+
+/*
+* Slutningen på footeren
+*
+*
+* Begyndelsen på de forskellige forms
+*/
+
+inpt input{
+	padding-left: 50%;
 }
