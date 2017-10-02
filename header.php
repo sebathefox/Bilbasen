@@ -5,6 +5,7 @@ echo '
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
  <link rel="shortcut icon" href="pictures/icon.ico" />
  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -13,7 +14,6 @@ echo '
 <header>
  <h1>Banner Her</h1>
 </header>
-
 
 <nav>
 <ul class="navbar">
@@ -28,6 +28,8 @@ echo '
       <a href="#">Link 3</a>
     </div>
 	<li class="navbar righty"><a class="navbar" href="login.php">Log Ind</a></li>
-</li>';
+</li>
+</ul>
+</nav>';
 
 ?>
