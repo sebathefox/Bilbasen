@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
  <link rel="shortcut icon" href="pictures/icon.ico" />
+ <link rel="stylesheet" type="text/css" href="css/style.css">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,17 +16,25 @@
     Denne side bruger cookies ved brug af siden accepterer du at der må gemmes cookies på din enhed.
   </div>
 
-<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-  <button type="button" href="https://www.toyota.com" class="btn btn-primary" >Home</button>
-  <button type="button" class="btn btn-primary">stuff</button>
-
-  <div class="btn-group" role="group">
-    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown
-    </button>
-    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-      <a class="dropdown-item" href="#">Dropdown link</a>
-      <a class="dropdown-item" href="#">Dropdown link</a>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.php">Hjem</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Hjem</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Biler</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="game.php">Spil</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
   </div>
-</div>
+</nav>
