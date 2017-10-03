@@ -1,22 +1,30 @@
 <?php
 //login.php
 require('header.php');
-//require('connect.php');
+?>
 
-echo '<h3>Log Ind</h3><br>';
-
-echo '
-<form class="inpt" method="post" action="">
-  Fornavn: <input type="text" name="firstname" value="F.eks. Svend"/><br>
-  Efternavn: <input type="text" name="lastname" value="Hansönsön"/><br>
-  <input type="submit" value="Opret"/>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email addresse</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">Vi deler aldrig din email med tredjepart.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Adgangskode</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <small id="passwordHelp" class="form-text text-muted">Men vi deler måske din adgangskode.</small>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
 
-
-';
-
-
+<?php
 
 require('footer.php');
 ?>
