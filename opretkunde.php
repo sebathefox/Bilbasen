@@ -4,16 +4,23 @@ require('header.php');
 ?>
 
 <form>
-  <div class="form-row">
+  <div class="form">
   <div class="col">
-    <label for="exampleInputEmail1">Email addresse</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <label for="inpt1">Email addresse</label>
+    <input type="email" class="form-control" id="inpt1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">Vi deler aldrig din email med tredjepart.</small>
   </div>
+
+  <div class="form-row">
   <div class="col">
-    <label for="exampleInputPassword1">Adgangskode</label>
-    <input type="password" class="form-control" placeholder="Password">
-    <small id="passwordHelp" class="form-text text-muted">Men vi deler måske din adgangskode.</small>
+    <label for="inpt2">Fornavn</label>
+    <input type="text" class="form-control" id="inpt2" placeholder="F.eks. John">
+    <small id="passwordHelp" class="form-text text-muted">Men vi deler måske dit navn.</small>
+  </div>
+  <div class="col">
+    <label for="inpt3">Efternavn</label>
+    <input type="text" class="form-control" id="inpt3" placeholder="F.eks. John">
+    <small id="passwordHelp" class="form-text text-muted">Og dit efternavn.</small>
   </div>
 </div>
 <br>

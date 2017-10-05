@@ -30,11 +30,14 @@
         <a class="nav-link" href="#">Biler</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="game.php">Noget der ikke har noget med denne opgave</a>
+        <a class="nav-link" href="about.php">Om os</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="opretkunde.php">Lej en bil</a>
       </li>
     </ul>
     <span class="navbar-text">
-      Navbar text with an inline element
+      Bilbasen.local&#8482
     </span>
   </div>
 </nav>

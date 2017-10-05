@@ -1,18 +1,15 @@
-<footer class="footer">
-<h4 class="footer">Contact: None</h4>
+<footer class="panel-footer">
+<h4><a href="game.php">K</a>ontakt: mig@bilbasen.local</h4>
 
+
+<!-- Secret test -->
+<!--
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
   row row row your boat sneaking down the stream lock-n-load tactic mode the united states marines.
-</div>
-
-
-
-
-
-
+</div>-->
 
 
 
